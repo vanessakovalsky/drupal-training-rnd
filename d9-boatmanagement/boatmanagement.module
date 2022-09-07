@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * @file
+ * Contains boatmanagement.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_help().
+ */
+function boatmanagement_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the boatmanagement module.
+    case 'help.page.boatmanagement':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Boat management') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function boatmanagement_theme() {
+  return [
+    'boatmanagement' => [
+      'render element' => 'children',
+    ],
+    'form__boat_import_form' => [
+      'render element' => 'form',
+      'template' => 'form--boat-import-form'
+    ]
+  ];
+}

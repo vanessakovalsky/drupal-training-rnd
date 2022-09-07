@@ -1,0 +1,7 @@
+name: BoatManagement
+type: module
+description: Boat management
+core_version_requirement: 9.x
+package: Custom
+dependencies:
+  - drupal:language
