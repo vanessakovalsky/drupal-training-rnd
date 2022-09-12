@@ -7,7 +7,16 @@
 - Activer le module d9-boatmanagement
 - Installer et activer le module devel et devel_generate 
 - Utiliser la commande devel:generate avec drush pour générer 50 ports (termes de taxonomie), des utilisateurs (10) et 50 noeuds de type Boat 
-- A l'aide de composer installer le Drupal Console
+- A l'aide de composer installer Drupal Console :
+```
+composer require drupal/console:~1.0 \
+--prefer-dist \
+--optimize-autoloader \
+--sort-packages \
+--no-update
+
+composer update
+```
 
 ## Création des vues 
 
