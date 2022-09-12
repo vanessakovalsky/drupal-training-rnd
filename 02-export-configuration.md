@@ -10,6 +10,8 @@ Cet exercice a pour objectifs de :
 ```
 drupal generate:module
 ```
+* /!\ Pour Drupal 9 : dans le fichier monmodule.info.yml remplacer la ligne `core: 8.x` par `core_version_requirement: ^9` 
+
 ou avec drush :
 ```
 drush gen module
