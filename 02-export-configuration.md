@@ -10,6 +10,11 @@ Cet exercice a pour objectifs de :
 ```
 drupal generate:module
 ```
+ou avec drush :
+```
+drush gen module
+```
+
 * Répondre aux questions posées pour créer le module
 * Dans quel dossier s'est créer le module ?
 * Quels sont les fichiers qui le compose ?
