@@ -47,6 +47,12 @@ vendor/bin/drupal generate:theme
 ```yml
 core_version_requirement: ^8 || ^9
 ```
+
+* OU avec drush
+```sh
+drush gen theme
+```
+
 * Modifier les regions du thèmes présents dans le montheme.info.yml pour ne laisser que les région suivante :
 * * Header
 * * Content
@@ -62,6 +68,6 @@ dossier template de votre thème et supprimer les régions inutiles
 
 ## Créer un template pour la page d'accueil et la vue
 * A l'aide du debuggueur, trouver les fichiers de template à créer et leur contenu de base pour 
-* * la page d'accueil
+* * la page bateau
 * * la vue Mes bateaux 
 * Créer ses fichiers et définirs les templates associés pour correspondre à la maquette
