@@ -1,0 +1,13 @@
+name: BoatTheme
+type: theme
+base theme: classy
+description: A flexible theme with a responsive, mobile-first layout.
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - boattheme/global
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'

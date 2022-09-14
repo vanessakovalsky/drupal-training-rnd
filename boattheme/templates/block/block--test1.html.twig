@@ -1,0 +1,28 @@
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+    'col-3',
+    'block-flipblock',
+  ]
+%}
+{{ attach_library('boattheme/flipblock') }}
+
+<div{{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+  {% block content %}
+    <div class="front">
+      {% if content.field_icone_flib %}
+        {{ content.field_icone_flib }}
+      {% endif %}
+    </div>
+    <div class="back">
+      {{ content.body }}
+    </div>
+  {% endblock %}
+</div>

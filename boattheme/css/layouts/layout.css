@@ -1,0 +1,19 @@
+.layout-container {
+    max-width: 98.125rem;
+    margin: auto;
+    background-color: white;
+}
+
+.region-content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.block-system-branding-block {
+    width: 20rem;
+}
+
+.region-header .block {
+    display: inline-block;
+    vertical-align: middle;
+}
