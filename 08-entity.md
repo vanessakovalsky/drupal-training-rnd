@@ -11,7 +11,7 @@ Cet exercice a pour objectifs :
 vendor/bin/drupal generate:form
 ```
 * Attention lors de la réponse aux questions penser à mettre yes sur la question pour le service container (nous allons en avoir besoin pour créer les noeuds par la suite)
-* le nom du service est entity.manager
+* le nom du service est entity_type.manager
 * Pour les champs, nous ajoutons un seul champ de type managed_file 
 * Puis nous générons les fichiers.
 * Ouvrir le fichier de formulaire et regarder comment est composé le formulaire.
