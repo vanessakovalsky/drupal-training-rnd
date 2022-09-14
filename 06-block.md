@@ -7,9 +7,15 @@ Cet exercice a pour objectifs :
 ## Créer un bloc custom qui ne s'affichera que sur les contenus de type Bateau
 
 * Nous allons utilier la console pour générer un type de bloc 
+* avec la console
 ```
 vendor/bin/drupal generate:plugin:block
 ```
+* avec drush
+```
+drush generate block
+```
+
 * Une fois le bloc crée afficher le depuis l'interface sur les noeuds de type bateau dans la région de votre choix (via l'interface d'administration)
   
 ## Calcul d'aire à partir des données du champs
