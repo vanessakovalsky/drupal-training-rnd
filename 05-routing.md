@@ -11,6 +11,10 @@ Cet exercice a pour objectifs :
 ```
 drush gen module
 ```
+* Avec la console
+```
+drupal generate:module
+```
 
 ## Utilisation d'un hook
 
@@ -28,12 +32,15 @@ function monmodule_uninstall(){
 
 ## Déclarer un controleur et sa route 
 * Générer un controleur et la route associée :
-** avec la console
+
+* * avec la console :
+
 ```
 drupal generate:controller
 ```
 
-** Avec drush
+* * Avec drush
+
 ```
 drush generate controller
 ```
