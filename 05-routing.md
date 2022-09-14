@@ -5,8 +5,16 @@ Cet exercice a pour objectifs :
 * de créer un controleur
 * d'associer une route au controleur
 
+## Création de module
+
+* Pour créer le module avec drush :
+```
+drush gen module
+```
+
 ## Utilisation d'un hook
-* Ajouter un fichier .module au module crée à l'exercice précédent (si le fichier n'existe pas)
+
+* Ajouter un fichier .module au module crée 
 * Dans ce module, nous allons ajouter un hook uninstall pour supprimer la config : le code pour supprimer de la config est celui la : 
 ```
 function monmodule_uninstall(){
@@ -20,8 +28,14 @@ function monmodule_uninstall(){
 
 ## Déclarer un controleur et sa route 
 * Générer un controleur et la route associée :
+** avec la console
 ```
 drupal generate:controller
+```
+
+** Avec drush
+```
+drush generate controller
 ```
 * Répondre aux questions
 * Aller voir les fichiers générés.
