@@ -4,10 +4,10 @@
 ## Créer un service 
 
 * Dans votre module, déclarer un nouveau service :
-    * Créer la classe du service qui permet d'envoyer des mails à un utilisateur séléctionné 
+    * Créer la classe du service qui permet d'envoyer des mails à un utilisateur séléctionné : ce service simplifiera l'envoi d'email, en ne demandant que l'email du destinataire, et le contenu (titre + message) du mail, le reste des informations sera définies par défaut dans un formulaire de configuration modifiable dans l'administration.
     * Créer le fichier yml de déclaration du service 
 
-* Ajouter au niveau de la fiche d'un utilisateur qui permet d'envoyer un email à celui-ci en utilisant votre service
+* Ajouter au niveau de la fiche d'un utilisateur un formulaire qui permet d'envoyer un email à celui-ci en appelant votre service
 
 ## Remplacer un service exisant 
 
